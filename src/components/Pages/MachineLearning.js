@@ -17,12 +17,16 @@ export const MachineLearning = () => {
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "40px" }}>
         <div style={{ flexBasis: "45%", textAlign: "center" }}>
           <img src={RMSE} alt="RMSE" style={{ width: "100%", height: "auto", maxWidth: "500px" }} />
-          <p style={{ marginTop: "10px", fontSize: "30px" }}>Random Forest Model</p>
+          <p style={{ marginTop: "10px", fontSize: "30px" }}>
+              Comparison of RMSE values
+          </p>
         </div>
 
         <div style={{ flexBasis: "45%", textAlign: "center" }}>
           <img src={ExecutionTimes} alt = "Execution Times" style={{ width: "100%", height: "auto", maxWidth: "500px", marginLeft: "-50px" }} />
-          <p style={{ marginTop: "10px", fontSize: "30px" }}>XgBoost Model</p>
+          <p style={{ marginTop: "10px", fontSize: "30px" }}>
+            Comparison of Execution Times
+          </p>
         </div>
       </div>
     </div>
