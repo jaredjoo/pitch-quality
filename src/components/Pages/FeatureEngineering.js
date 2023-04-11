@@ -1,4 +1,6 @@
 import React from "react";
+import ArmAngle from "./ArmAnglePlot.png";
+import PitchMovementPlot from "./PitchMovementPlot.png";
 
 export const FeatureEngineering = () => {
   return (
@@ -34,6 +36,13 @@ export const FeatureEngineering = () => {
             Horizontal and Vertical movement relative to primary fastball
           </li>
         </ul>
+        <div>
+          <img src={ArmAngle} alt="Arm Angle" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
+        </div>
+        <div>
+          <img src={PitchMovementPlot} alt="Pitch Movement Plot" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
+        </div>
+        
       </div>
     </div>
   );
