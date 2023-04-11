@@ -5,7 +5,7 @@ import pitch_video2 from "./pitch_video2.mp4";
 export const Introduction = () => {
   return (
     <div>
-      <div style ={{textAlign: 'left', paddingLeft: '235px', marginTop: '-100px'}}>
+      <div style ={{textAlign: 'left', paddingLeft: '235px', marginTop: '-140px'}}>
         <h5>
           Problem
         </h5>
