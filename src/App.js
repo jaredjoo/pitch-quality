@@ -5,6 +5,7 @@ import { Introduction } from "./components/Pages/Introduction";
 import { FeatureEngineering } from "./components/Pages/FeatureEngineering";
 import { MachineLearning } from "./components/Pages/MachineLearning";
 import { Results } from "./components/Pages/Results";
+import { References } from "./components/Pages/References";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/featureengineering" element={<FeatureEngineering />} />
             <Route path="/machinelearning" element={<MachineLearning />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/references" element={<References />} />
           </Routes>
         </div>
       </Router>
