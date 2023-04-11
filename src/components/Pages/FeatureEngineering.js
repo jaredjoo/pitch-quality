@@ -3,7 +3,38 @@ import React from "react";
 export const FeatureEngineering = () => {
   return (
     <div>
-      
+      <div style={{ textAlign: "left", paddingLeft: "170px", marginTop: "-140px" }}>
+        <h5>Data and Features</h5>
+        <p style={{ fontSize: "30px", marginTop: "20px", wordWrap: "break-word" }}>
+        There are 10 key features that we have identified through our literature review, as well as dataset exploration, which are as follows:
+        </p>
+        <ul style={{ fontSize: "30px", paddingLeft: "70px", marginTop: "10px", maxWidth: "1200px" }}>
+          <li style={{ wordWrap: "break-word" }}>
+            Pitch velocity
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Horizontal and Vertical Movement
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Arm Angle
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Spin Rate
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Release Extension
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Spin Axis
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Velocity difference relative to primary fastball
+          </li>
+          <li style={{ wordWrap: "break-word" }}>
+            Horizontal and Vertical movement relative to primary fastball
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
