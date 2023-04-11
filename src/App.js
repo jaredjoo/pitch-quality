@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
+import { Introduction } from "./components/Pages/Introduction";
+import { FeatureEngineering } from "./components/Pages/FeatureEngineering";
+import { MachineLearning } from "./components/Pages/MachineLearning";
+import { Results } from "./components/Pages/Results";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           <code>src/App.js</code> and save to reload
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavBar />
+
+        <div className="pages">
+          <Routes>
+            <Route path="/" element={<Introduction />} />
+            <Route path="/featureengineering" element={<FeatureEngineering />} />
+            <Route path="/machinelearning" element={<MachineLearning />} />
+            <Route path="/results" element={<Results />} />
+          </Routes>
+        </div>
+      </Router>
+  </>
   );
 }
 
