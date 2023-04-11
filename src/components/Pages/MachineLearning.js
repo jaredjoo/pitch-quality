@@ -6,7 +6,7 @@ export const MachineLearning = () => {
   return (
     <div>
       <div style={{ textAlign: "left", paddingLeft: "235px", marginTop: "-100px" }}>
-        <h4>Types of Potential Models</h4>
+        <h5>Types of Potential Models</h5>
         <ul style={{ fontSize: "30px", paddingLeft: "70px", marginTop: "30px", maxWidth: "1200px" }}>
           <li style={{ wordWrap: "break-word" }}>Random Forest</li>
           <li style={{ wordWrap: "break-word" }}>XgBoost</li>
