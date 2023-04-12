@@ -5,7 +5,7 @@ import ExecutionTimes from './ExecutionTimes.png';
 export const MachineLearning = () => {
   return (
     <div>
-      <div style={{ textAlign: "left", paddingLeft: "235px", marginTop: "-140px" }}>
+      <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "-140px" }}>
         <h5>Types of Potential Models</h5>
         <ul style={{ fontSize: "30px", paddingLeft: "70px", marginTop: "30px", maxWidth: "1200px" }}>
           <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>Random Forest</li>

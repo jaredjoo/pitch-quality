@@ -5,7 +5,7 @@ import PitchMovementPlot from "./PitchMovementPlot.png";
 export const FeatureEngineering = () => {
   return (
     <div>
-      <div style={{ textAlign: "left", paddingLeft: "170px", marginTop: "-140px" }}>
+      <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "-140px" }}>
         <h5>Data and Features</h5>
         <p style={{ fontSize: "30px", marginTop: "20px", wordWrap: "break-word" }}>
         There are 10 key features that we have identified through our literature review, as well as dataset exploration, which are as follows:
