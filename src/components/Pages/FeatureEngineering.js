@@ -11,28 +11,28 @@ export const FeatureEngineering = () => {
         There are 10 key features that we have identified through our literature review, as well as dataset exploration, which are as follows:
         </p>
         <ul style={{ fontSize: "30px", paddingLeft: "70px", marginTop: "10px", maxWidth: "1200px" }}>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Pitch velocity
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Horizontal and Vertical Movement
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Arm Angle
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Spin Rate
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Release Extension
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Spin Axis
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Velocity difference relative to primary fastball
           </li>
-          <li style={{ wordWrap: "break-word" }}>
+          <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
             Horizontal and Vertical movement relative to primary fastball
           </li>
         </ul>
