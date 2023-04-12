@@ -13,7 +13,6 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             Team 10: Quantifying MLB Pitch Quality
-            <i className="fa-sharp fa-regular fa-baseball"></i>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

@@ -47,10 +47,13 @@ export const Introduction = () => {
         <h5 style= {{marginTop: '40px'}}>
           Our Approach
         </h5>
-        <ul style ={{fontSize: '30px', paddingLeft: '70px', marginTop: '30px', maxWidth: '1200px', marginBottom: '50px'}}>
-          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>This is largely unknown, as there are not many public facing models that predict the quality of a pitch</li>
-          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>MLB teams are unable to share their internal models as giving other teams insight into their player evaluation process puts them at a disadvantage</li>
-          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Some private companies such as Driveline do allow the public to interact with their model, but in a limited way while also not sharing their methodology for creating the model</li> 
+        <ul style ={{fontSize: '30px', paddingLeft: '70px', marginTop: '30px', maxWidth: '1200px', marginBottom: '100px'}}>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Obtain data from the PyBaseball package (specifically the 2020-2022 MLB seasons)</li>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>State the target variable (delta_run_exp) which measures the change in run value</li>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Select the 10 important features that will most affect our target variable</li>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Apply machine learning using an XgBoost model and Random Forest, later deciding the best of the two by comparing execution times and RMSE values</li>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Using the chosen model, predict the probability of certain events occurring and using linear weights to measure the expected run value of a given pitch</li>
+          <li style={{wordWrap: 'break-word', marginBottom: '15px'}}>Analyze our findings using visualizations</li> 
         </ul>
       </div>
     </div>

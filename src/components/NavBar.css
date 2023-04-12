@@ -27,13 +27,15 @@
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
+  font-weight: bold;
 }
 
 .nav-menu {
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 2rem;
+  margin-right: -7rem;
+  /* ^changes the position of the nav bar by moving to the right */
 }
 
 .nav-links {
