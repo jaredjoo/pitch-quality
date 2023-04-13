@@ -8,7 +8,7 @@ export const FeatureEngineering = () => {
       <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "-140px" }}>
         <h5>Data and Features</h5>
         <p style={{ fontSize: "30px", marginTop: "20px", wordWrap: "break-word" }}>
-        There are 10 key features that we have identified through our literature review, as well as dataset exploration, which are as follows:
+        Our primary focus was to include variables that the pitcher can reliably and consistently control:
         </p>
         <ul style={{ fontSize: "30px", paddingLeft: "70px", marginTop: "10px", maxWidth: "1200px" }}>
           <li style={{ wordWrap: "break-word", marginBottom: '15px' }}>
@@ -36,14 +36,57 @@ export const FeatureEngineering = () => {
             Horizontal and Vertical movement relative to primary fastball
           </li>
         </ul>
-        <div>
-          <img src={ArmAngle} alt="Arm Angle" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
-        </div>
-        <div>
-          <img src={PitchMovementPlot} alt="Pitch Movement Plot" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
-        </div>
-        
+
+          <div>
+            <img src={ArmAngle} alt="Arm Angle" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "50px" }} />
+            <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
+              <li>
+                Looking at the plot, we can see that there is roughly an equal amount of pitches
+              </li>
+              <li>
+                thrown with each arm slot, balanced across both left and right handed pitchers.
+              </li>
+              <li>
+                This means that during model training, we will not inadvertently
+              </li>
+              <li>
+                value one arm angle over the other due to how often it appears in the dataset compared to another arm angle.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <img src={PitchMovementPlot} alt="Pitch Movement Plot" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
+            <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "100px" }}>
+              <li>
+                Looking at the plot, we can see that there is roughly an equal amount of pitches
+              </li>
+              <li>
+                thrown with each arm slot, balanced across both left and right handed pitchers.
+              </li>
+              <li>
+                This means that during model training, we will not inadvertently
+              </li>
+              <li>
+                value one arm angle over the other due to how often it appears in the dataset compared to another arm angle.
+              </li>
+            </ul>
+          </div>
+
+
+
       </div>
     </div>
   );
 };
+
+
+{/* <div>
+<h2 style={{ marginTop: "40px", fontSize: "30px" }}>Feature Engineering</h2>
+<hr style={{ marginBottom: "30px" }} />
+<div style={{ marginBottom: "100px" }}>
+  {/* <h3 style={{ fontSize: "24px" }}>XGBoost vs Random Forest</h3> */}
+//   <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "40px" }}>
+//   </div>
+// </div>
+// </div> */}
