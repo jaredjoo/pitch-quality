@@ -79,14 +79,3 @@ export const FeatureEngineering = () => {
     </div>
   );
 };
-
-
-{/* <div>
-<h2 style={{ marginTop: "40px", fontSize: "30px" }}>Feature Engineering</h2>
-<hr style={{ marginBottom: "30px" }} />
-<div style={{ marginBottom: "100px" }}>
-  {/* <h3 style={{ fontSize: "24px" }}>XGBoost vs Random Forest</h3> */}
-//   <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "40px" }}>
-//   </div>
-// </div>
-// </div> */}
