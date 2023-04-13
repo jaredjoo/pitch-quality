@@ -59,16 +59,7 @@ export const FeatureEngineering = () => {
             <img src={PitchMovementPlot} alt="Pitch Movement Plot" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
             <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "100px" }}>
               <li>
-                Looking at the plot, we can see that there is roughly an equal amount of pitches
-              </li>
-              <li>
-                thrown with each arm slot, balanced across both left and right handed pitchers.
-              </li>
-              <li>
-                This means that during model training, we will not inadvertently
-              </li>
-              <li>
-                value one arm angle over the other due to how often it appears in the dataset compared to another arm angle.
+                Spin Induced Pitch Movement Plot for Spencer Strider
               </li>
             </ul>
           </div>
