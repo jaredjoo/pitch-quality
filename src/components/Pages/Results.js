@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import bestPitches from "./bestPitches.csv";
+// import Final_Paper from "./Final_Paper.pdf";
 import {
   Table,
   TableBody,
@@ -219,29 +220,27 @@ export const Results = () => {
         </div>
       </div>
 
-      <div>
-        <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "40px" }}>
-          <h5>External Links</h5>
-        
-          <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
-            <li>
-              For more details on our project, you can access our links to our code, final paper, and final presentation: 
-            </li>
-            <li>
-              Codebase:
-            </li>
-            <li>
-              Website codebase:
-            </li>
-            <li>
-              Final Paper:
-            </li>
-            <li>
-              Final Presentation:
-            </li>
-          </ul>
+      <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "40px" }}>
+        <h5>External Links</h5>
 
-        </div>
+        <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
+          <li>
+            For more details on our project, you can access our links to our code, final paper, and final presentation:
+          </li>
+          <li>
+            <a href="https://placeholder.com/ryanp18/pitchqualitycapstone">Codebase</a>
+          </li>
+          <li>
+            <a href="https://placeholder.com/jaredjoo/pitch-quality">Website Codebase</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1deXiw7Ydehzv-cdbpRuYkmfM9U4aAWRw/view?usp=sharing">Final Paper</a>
+          </li>
+          <li>
+            <a href="https://placeholder.com/1LyHSPJACWgHuDNuMPqGMHbT6fm0QwTs68J13ofhUfVU/edit?usp=sharing">Final Presentation</a>
+          </li>
+        </ul>
+
       </div>
     </div>
   );
