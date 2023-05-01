@@ -130,10 +130,15 @@ export const Results = () => {
             <li>
               by the league and acquire them for cheaper than their true value.
             </li>
-            <li>
-              Below, you can find players and sort them according to their stats:
-            </li>
           </ul>
+      </div>
+
+      <div style ={{textAlign: 'left', paddingLeft: '150px'}}>
+        <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "20px" }}>
+          <li>
+            Below, you can find players and sort them according to their stats:
+          </li>
+        </ul>
       </div>
       <TextField
         label="Search Player"
@@ -220,28 +225,38 @@ export const Results = () => {
         </div>
       </div>
 
-      <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "40px", marginBottom: "100px" }}>
-        <h5>External Links</h5>
+      <div style={{textAlign: "left", paddingLeft: "150px", marginTop: "40px", marginBottom: "100px"}}>
+        <h5>
+          External Links
+        </h5>
 
-        <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0}}>
+        <ul style={{fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0}}>
           <li>
             For more details on our project, you can access our links to our code, final paper, and final presentation:
           </li>
           <li>
-            <a href="https://git.cs.vt.edu/ryanp18/pitchqualitycapstone">Codebase</a>
+            <a href="https://git.cs.vt.edu/ryanp18/pitchqualitycapstone" target="_blank" rel="noopener noreferrer">
+              Codebase
+            </a>
           </li>
           <li>
-            <a href="https://github.com/jaredjoo/pitch-quality">Website Codebase</a>
+            <a href="https://github.com/jaredjoo/pitch-quality" target="_blank" rel="noopener noreferrer">
+              Website Codebase
+            </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1deXiw7Ydehzv-cdbpRuYkmfM9U4aAWRw/view?usp=sharing">Final Paper</a>
+            <a href="https://drive.google.com/file/d/1deXiw7Ydehzv-cdbpRuYkmfM9U4aAWRw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Final Paper
+            </a>
           </li>
           <li>
-            <a href="https://placeholder.com/1LyHSPJACWgHuDNuMPqGMHbT6fm0QwTs68J13ofhUfVU/edit?usp=sharing">Final Presentation</a>
+            <a href="https://docs.google.com/presentation/d/1LyHSPJACWgHuDNuMPqGMHbT6fm0QwTs68J13ofhUfVU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Final Presentation
+            </a>
           </li>
         </ul>
-
       </div>
+
     </div>
   );
 };

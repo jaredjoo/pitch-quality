@@ -28,14 +28,18 @@ export const MachineLearning = () => {
             <div style={{ flexBasis: "45%", textAlign: "center" }}>
               <img src={RMSE} alt="RMSE" style={{ width: "100%", height: "auto", maxWidth: "500px" }} />
               <p style={{ marginTop: "10px", fontSize: "30px" }}>
-                  Comparison of RMSE values
+                <b style={{fontWeight: 'bold'}}>
+                  Comparison of RMSE Values
+                </b>
               </p>
             </div>
 
             <div style={{ flexBasis: "45%", textAlign: "center" }}>
               <img src={ExecutionTimes} alt = "Execution Times" style={{ width: "100%", height: "auto", maxWidth: "500px", marginLeft: "-50px" }} />
               <p style={{ marginTop: "10px", fontSize: "30px" }}>
-                Comparison of Execution Times
+                <b style={{fontWeight: 'bold'}}>
+                  Comparison of Execution Times
+                </b>
               </p>
             </div>
           </div>
@@ -65,13 +69,13 @@ export const MachineLearning = () => {
                 Using these grades, we can create plots that show the impact
               </li>
               <li>
-                of various features on the average grade in its bin. With
+                of various features on the average grade in its bin. With these plots,
               </li>
               <li>
-                these plots, pitchers can explore what they should focus on changing to
+                pitchers can explore what they should focus on changing to improve
               </li>
               <li>
-                improve their grades, which should in turn, improve their performance on the field
+                their grades, which should in turn, improve their performance on the field
               </li>
             </ul>
           </div>

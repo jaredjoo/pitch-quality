@@ -47,10 +47,10 @@ export const FeatureEngineering = () => {
                 thrown with each arm slot, balanced across both left and right handed pitchers.
               </li>
               <li>
-                This means that during model training, we will not inadvertently
+                This means that during model training, we will not inadvertently value one arm angle
               </li>
               <li>
-                value one arm angle over the other due to how often it appears in the dataset compared to another arm angle.
+                over the other due to how often it appears in the dataset compared to another arm angle.
               </li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ export const FeatureEngineering = () => {
             <img src={PitchMovementPlot} alt="Pitch Movement Plot" style={{ width: "100%", height: "auto", maxWidth: "500px", marginTop: "30px" }} />
             <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "100px" }}>
               <li>
-                Spin Induced Pitch Movement Plot for Spencer Strider
+                Here is an example of a Spin Induced Pitch Movement Plot for Spencer Strider
               </li>
             </ul>
           </div>
