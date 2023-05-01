@@ -29,15 +29,24 @@ const sortData = (data, orderBy, order) => {
 
   // sort in ascending order
   sortedData.sort((a, b) => {
+    let aValue = a[orderBy];
+    let bValue = b[orderBy];
+
+    // Convert to numbers when sorting by 'nPitches'
+    if (orderBy === "nPitches") {
+      aValue = parseInt(aValue, 10);
+      bValue = parseInt(bValue, 10);
+    }
+
     let result;
     if (order === "asc") {
-      if (a[orderBy] < b[orderBy]) {
+      if (aValue < bValue) {
         result = -1;
       } else {
         result = 1;
       }
     } else {
-      if (a[orderBy] > b[orderBy]) {
+      if (aValue > bValue) {
         result = -1;
       } else {
         result = 1;
@@ -47,6 +56,7 @@ const sortData = (data, orderBy, order) => {
   });
   return sortedData;
 };
+
 
 
 export const Results = () => {
@@ -203,6 +213,31 @@ export const Results = () => {
             </li>
             <li>
               the pitch group it belonged to and create a unique grading scale for fastballs, breaking balls, and off-speed pitches.
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div>
+        <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "40px" }}>
+          <h5>External Links</h5>
+        
+          <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
+            <li>
+              For more details on our project, you can access our links to our code, final paper, and final presentation: 
+            </li>
+            <li>
+              Codebase:
+            </li>
+            <li>
+              Website codebase:
+            </li>
+            <li>
+              Final Paper:
+            </li>
+            <li>
+              Final Presentation:
             </li>
           </ul>
 
