@@ -46,32 +46,32 @@ export const MachineLearning = () => {
                 When training and testing these models, we saw that the xgboost had a small score
               </li>
               <li>
-                improvement over the random forest model. More importantly, the time to train the xgboost model
+                improvement over the random forest model. More importantly, 
               </li>
               <li>
-                was significantly less than the random forest, which would allow us to explore 
+              the time to train the xgboost model was significantly less than the random forest, 
               </li>
               <li>
-                more options for hyperparameter tuning.
+                which would allow us to explore more options for hyperparameter tuning.
               </li>
             </ul>
           </div>
 
 
           <div>
-          <img src={StuffGrade} alt = "Stuff Grade" style={{ width: "100%", height: "auto", maxWidth: "500px", marginLeft: "-50px" }} />
+            <img src={StuffGrade} alt = "Stuff Grade" style={{ width: "100%", height: "auto", maxWidth: "500px", marginLeft: "-50px" }} />
             <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "100px" }}>
               <li>
-                Using these grades, we can create plots that show 
+                Using these grades, we can create plots that show the impact
               </li>
               <li>
-                the impact of various features on the average grade in its bin
+                of various features on the average grade in its bin. With
               </li>
               <li>
-                With these plots, pitchers can explore what they should focus on changing
+                these plots, pitchers can explore what they should focus on changing to
               </li>
               <li>
-                to improve their grades, which should in turn, improve their performance on the field
+                improve their grades, which should in turn, improve their performance on the field
               </li>
             </ul>
           </div>
