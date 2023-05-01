@@ -97,6 +97,33 @@ export const Results = () => {
 
   return (
     <div>
+
+      <div style ={{textAlign: 'left', paddingLeft: '150px', marginTop: '-140px'}}>
+        <h5>Player Evaluation</h5>
+          <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
+            <li>
+              The main focus of our project was to create a tool for players and coaches to be able to utilize
+            </li>
+            <li>
+              to improve their own performance. Once we created the pitch grades, we were able to create visualizations 
+            </li>
+            <li>
+              unique to each pitcher and their pitches to give them a sense of what they might potentially change in 
+            </li>
+            <li>
+              order to improve. We were also able to create summary tables showing off who has the highest graded 
+            </li>
+            <li>
+              pitches, which could also provide front offices the ability to identify players that are undervalued 
+            </li>
+            <li>
+              by the league and acquire them for cheaper than their true value.
+            </li>
+            <li>
+              Below, you can find players and sort them according to their stats:
+            </li>
+          </ul>
+      </div>
       <TextField
         label="Search Player"
         value={searchTerm}
@@ -156,6 +183,49 @@ export const Results = () => {
           </TableBody>
         </Table>
       </TableContainer>
+
+      <div>
+        <div style={{ textAlign: "left", paddingLeft: "150px", marginTop: "40px" }}>
+          <h5>Creating Pitch Grades</h5>
+        
+          <ul style={{ fontSize: "30px", marginTop: "30px", wordWrap: "break-word", listStyle: "none", padding: 0, marginBottom: "50px" }}>
+            <li>
+              The immediate output of our model is runs, which is not easy to compare the value of one pitch to another, 
+            </li>
+            <li>
+              so the model was converted to the 20-80 scale; a standard baseball scale that people 
+            </li>
+            <li>
+              in baseball can easily understand. The initial attempt failed as certain pitch types tended to do 
+            </li>
+            <li>
+              better at reducing the number of runs scored, so the solution was to grade each pitch relative to 
+            </li>
+            <li>
+              the pitch group it belonged to and create a unique grading scale for fastballs, breaking balls, and off-speed pitches.
+            </li>
+          </ul>
+
+        </div>
+      </div>
     </div>
   );
 };
+
+
+
+// Creating Pitch Grades
+// The model's immediate output is runs, which is not easy to compare the value of one pitch to another, 
+// so the model was converted to the 20-80 scale; a standard baseball scale that people 
+// in baseball can easily understand. The initial attempt failed as certain pitch types tended to do 
+// better at reducing the number of runs scored, so the solution was to grade each pitch relative to 
+// the pitch group it belonged to and create a unique grading scale for fastballs, breaking balls, and off-speed pitches.
+
+
+// Player Evaluation
+// The main focus of our project was to create a tool for players and coaches to be able to utilize
+// to improve their own performance. Once we created the pitch grades, we were able to create visualizations 
+// unique to each pitcher and their pitches to give them a sense of what they might potentially change in 
+//order to improve. We were also able to create summary tables showing off who has the highest graded 
+//pitches, which could also provide front offices the ability to identify players that are undervalued 
+// by the league and acquire them for cheaper than their true value.
