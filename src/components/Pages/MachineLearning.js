@@ -1,6 +1,6 @@
 import React from "react";
-import RMSE from './RMSE.png';
-import ExecutionTimes from './ExecutionTimes.png';
+import RMSE from './RMSE_1.png';
+import ExecutionTimes from './ExecutionTimes_1.png';
 import StuffGrade from './stuffGrade.png';
 
 export const MachineLearning = () => {
