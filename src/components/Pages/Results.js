@@ -245,7 +245,7 @@ export const Results = () => {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1deXiw7Ydehzv-cdbpRuYkmfM9U4aAWRw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1nf1f8K7j9Wgw26aGqTowjpdTCPw0oPCs/view?usp=share_link" target="_blank" rel="noopener noreferrer">
               Final Paper
             </a>
           </li>
